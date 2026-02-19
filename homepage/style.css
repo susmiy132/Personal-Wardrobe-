@@ -1,0 +1,25 @@
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+}
+
+header{
+    display: flex;
+    margin-top: 3px;
+    align-items: center;
+    gap: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    margin-right: 38rem;
+}
+
+header a{
+    margin-right: 3px;
+    margin-left: 3px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
