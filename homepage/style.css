@@ -6,9 +6,8 @@ body{
 
 header{
     display: flex;
-    margin-top: 3px;
     align-items: center;
-    gap: 20px;
+
 }
 
 header h1 {
