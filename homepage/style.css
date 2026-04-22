@@ -1,24 +1,54 @@
-
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
     background-color: antiquewhite;
 }
 
-header{
+header {
     display: flex;
-    align-items: center;
+    margin: 0px;
+}
 
+header div {
+    margin: 0px;
 }
 
 header h1 {
     font-weight: bold;
-    margin-right: 38rem;
+    margin: 0px;
 }
 
-header a{
+header a {
     margin-right: 3px;
     margin-left: 3px;
     color: black;
     text-decoration: none;
     font-weight: 500;
+}
+
+header div {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    margin: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 5px;
+    margin-left: 40rem;
+}
+
+nav button {
+    background-color: rgb(137, 135, 133);
+    border: 10px;
+    border-radius: 10px;
+    font: black;
+    font-weight: bold;
+    font-size: medium;
+    border-color: black;
+    width: 8rem;
+    height: 2rem;
 }
